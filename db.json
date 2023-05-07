@@ -5,6 +5,7 @@
       "config": {
         "name": "The Ninth Age Tournament",
         "number_of_players": 4,
+        "link": "https://www.the-ninth-age.com/",
         "rounds": [
           {
             "description": "Essence of War",
