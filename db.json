@@ -182,8 +182,7 @@
           "armyId": 14
         }
       ]
-    },
-    
+    },    
     {
       "id": 2,
       "config": {
@@ -299,7 +298,126 @@
             "supplement": true
           }
         ]
-      }
+      },
+      "playerArmies": []
+    },        
+    {
+      "id": 2,
+      "config": {
+        "name": "Trent Test Tournament",
+        "number_of_players": 2,
+        "rounds": [
+          {
+            "description": "Essence of War",
+            "armies_per_player": 4,
+            "match_type": "ALL_PLAYERS"
+          },
+          {
+            "description": "1.5k",
+            "armies_per_player": 3,
+            "match_type": "RANDOM_PLAYER",
+            "selection": ["PLAYER_CHOICE", "OPPONENT_CHOICE", "BEST_RANKED"]
+          },
+          {
+            "description": "2250",
+            "armies_per_player": 1,
+            "match_type": "ALL_PLAYERS",
+            "selection": ["PLAYER_CHOICE"]
+          }
+        ],
+        "armies": [
+          {
+            "id": 1,
+            "name": "Beast Herds"
+          },
+          {
+            "id": 2,
+            "name": "Daemon Legions"
+          },
+          {
+            "id": 3,
+            "name": "Warriors of the Dark Gods"
+          },
+          {
+            "id": 4,
+            "name": "Dread Elves"
+          },
+          {
+            "id": 5,
+            "name": "Highborn Elves"
+          },
+          {
+            "id": 6,
+            "name": "Sylvan Elves"
+          },
+          {
+            "id": 7,
+            "name": "Dwarven Holds"
+          },
+          {
+            "id": 8,
+            "name": "Infernal Dwarves"
+          },
+          {
+            "id": 9,
+            "name": "Empire of Sonnstahl"
+          },
+          {
+            "id": 10,
+            "name": "Kingdom of Equitaine"
+          },
+          {
+            "id": 11,
+            "name": "Undying Dynasties"
+          },
+          {
+            "id": 12,
+            "name": "Vampire Covenant"
+          },
+          {
+            "id": 13,
+            "name": "Saurian Ancients"
+          },
+          {
+            "id": 14,
+            "name": "Ogre Khans"
+          },
+          {
+            "id": 15,
+            "name": "Orcs and Goblins"
+          },
+          {
+            "id": 16,
+            "name": "Vermin Swarm"
+          },
+          {
+            "id": 17,
+            "name": "Cultists (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 18,
+            "name": "Legions of Sin (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 19,
+            "name": "Asklanders (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 20,
+            "name": "Makhar (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 21,
+            "name": "Hobgoblins (supplement)",
+            "supplement": true
+          }
+        ]
+      },
+      "playerArmies": []
     }
   ],
   "players": [
