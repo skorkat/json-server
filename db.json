@@ -1,6 +1,124 @@
 {
   "tournaments": [
     {
+      "id": 4,
+      "config": {
+        "name": "The Ninth Age Tournament",
+        "number_of_players": 2,
+        "rounds": [
+          {
+            "description": "Essence of War",
+            "armies_per_player": 4,
+            "match_type": "ALL_PLAYERS"
+          },
+          {
+            "description": "1.5k",
+            "armies_per_player": 3,
+            "match_type": "RANDOM_PLAYER",
+            "selection": ["PLAYER_CHOICE", "OPPONENT_CHOICE", "BEST_RANKED"]
+          },
+          {
+            "description": "2250",
+            "armies_per_player": 1,
+            "match_type": "ALL_PLAYERS",
+            "selection": ["PLAYER_CHOICE"]
+          }
+        ],
+        "armies": [
+          {
+            "id": 1,
+            "name": "Beast Herds"
+          },
+          {
+            "id": 2,
+            "name": "Daemon Legions"
+          },
+          {
+            "id": 3,
+            "name": "Warriors of the Dark Gods"
+          },
+          {
+            "id": 4,
+            "name": "Dread Elves"
+          },
+          {
+            "id": 5,
+            "name": "Highborn Elves"
+          },
+          {
+            "id": 6,
+            "name": "Sylvan Elves"
+          },
+          {
+            "id": 7,
+            "name": "Dwarven Holds"
+          },
+          {
+            "id": 8,
+            "name": "Infernal Dwarves"
+          },
+          {
+            "id": 9,
+            "name": "Empire of Sonnstahl"
+          },
+          {
+            "id": 10,
+            "name": "Kingdom of Equitaine"
+          },
+          {
+            "id": 11,
+            "name": "Undying Dynasties"
+          },
+          {
+            "id": 12,
+            "name": "Vampire Covenant"
+          },
+          {
+            "id": 13,
+            "name": "Saurian Ancients"
+          },
+          {
+            "id": 14,
+            "name": "Ogre Khans"
+          },
+          {
+            "id": 15,
+            "name": "Orcs and Goblins"
+          },
+          {
+            "id": 16,
+            "name": "Vermin Swarm"
+          },
+          {
+            "id": 17,
+            "name": "Cultists (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 18,
+            "name": "Legions of Sin (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 19,
+            "name": "Asklanders (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 20,
+            "name": "Makhar (supplement)",
+            "supplement": true
+          },
+          {
+            "id": 21,
+            "name": "Hobgoblins (supplement)",
+            "supplement": true
+          }
+        ]
+      },
+      "playerArmies": []
+    },
+    {
       "id": 1,
       "config": {
         "name": "Test Tournament",
@@ -182,7 +300,7 @@
           "armyId": 14
         }
       ]
-    },    
+    },
     {
       "id": 2,
       "config": {
@@ -299,8 +417,41 @@
           }
         ]
       },
-      "playerArmies": []
-    },        
+      "playerArmies": [
+        {
+          "playerId": "7",
+          "armyId": 1
+        },
+        {
+          "playerId": "7",
+          "armyId": 9
+        },
+        {
+          "playerId": "7",
+          "armyId": 15
+        },
+        {
+          "playerId": "7",
+          "armyId": 21
+        },
+        {
+          "playerId": "8",
+          "armyId": 20
+        },
+        {
+          "playerId": "8",
+          "armyId": 19
+        },
+        {
+          "playerId": "8",
+          "armyId": 18
+        },
+        {
+          "playerId": "8",
+          "armyId": 17
+        }
+      ]
+    },
     {
       "id": 3,
       "config": {
@@ -417,7 +568,40 @@
           }
         ]
       },
-      "playerArmies": []
+      "playerArmies": [
+        {
+          "playerId": "5",
+          "armyId": 4
+        },
+        {
+          "playerId": "5",
+          "armyId": 7
+        },
+        {
+          "playerId": "5",
+          "armyId": 6
+        },
+        {
+          "playerId": "5",
+          "armyId": 3
+        },
+        {
+          "playerId": "6",
+          "armyId": 20
+        },
+        {
+          "playerId": "6",
+          "armyId": 5
+        },
+        {
+          "playerId": "6",
+          "armyId": 1
+        },
+        {
+          "playerId": "6",
+          "armyId": 2
+        }
+      ]
     }
   ],
   "players": [
@@ -444,6 +628,30 @@
       "name": "Caitlin",
       "army_preferences": [4, 5, 7, 6],
       "id": 4
+    },
+    {
+      "tournamentId": 3,
+      "name": "Trent",
+      "army_preferences": [6, 7, 3, 4, 5, 1, 2, 20],
+      "id": 5
+    },
+    {
+      "tournamentId": 3,
+      "name": "Callum",
+      "army_preferences": [],
+      "id": 6
+    },
+    {
+      "tournamentId": 2,
+      "name": "Robert",
+      "army_preferences": [1, 9, 15, 17, 19, 18, 21, 20, 14],
+      "id": 7
+    },
+    {
+      "tournamentId": 2,
+      "name": "Egbert",
+      "army_preferences": [20, 19, 18, 17, 16, 15, 13, 12, 11, 5, 7, 8],
+      "id": 8
     }
   ]
 }
