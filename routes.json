@@ -1,5 +1,5 @@
 {
     "/api/*": "/$1",
-    "/players/:tournamentId": "/players?tournamentId=:tournamentId"
+    "/tournament_players/:tournamentId": "/players?tournamentId=:tournamentId"
 }
   
