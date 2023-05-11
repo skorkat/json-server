@@ -16,13 +16,19 @@
             "description": "1.5k",
             "armies_per_player": 3,
             "match_type": "RANDOM_PLAYER",
-            "selection": ["PLAYER_CHOICE", "OPPONENT_CHOICE", "BEST_RANKED"]
+            "selection": [
+              "PLAYER_CHOICE",
+              "OPPONENT_CHOICE",
+              "BEST_RANKED"
+            ]
           },
           {
             "description": "2250",
             "armies_per_player": 1,
             "match_type": "ALL_PLAYERS",
-            "selection": ["PLAYER_CHOICE"]
+            "selection": [
+              "PLAYER_CHOICE"
+            ]
           }
         ],
         "armies": [
@@ -117,7 +123,72 @@
           }
         ]
       },
-      "playerArmies": []
+      "playerArmies": [
+        {
+          "playerId": "9",
+          "armyId": 5
+        },
+        {
+          "playerId": "9",
+          "armyId": 13
+        },
+        {
+          "playerId": "9",
+          "armyId": 16
+        },
+        {
+          "playerId": "9",
+          "armyId": 10
+        },
+        {
+          "playerId": "10",
+          "armyId": 3
+        },
+        {
+          "playerId": "10",
+          "armyId": 9
+        },
+        {
+          "playerId": "10",
+          "armyId": 7
+        },
+        {
+          "playerId": "10",
+          "armyId": 15
+        },
+        {
+          "playerId": "11",
+          "armyId": 12
+        },
+        {
+          "playerId": "11",
+          "armyId": 2
+        },
+        {
+          "playerId": "11",
+          "armyId": 8
+        },
+        {
+          "playerId": "11",
+          "armyId": 11
+        },
+        {
+          "playerId": "12",
+          "armyId": 6
+        },
+        {
+          "playerId": "12",
+          "armyId": 19
+        },
+        {
+          "playerId": "12",
+          "armyId": 14
+        },
+        {
+          "playerId": "12",
+          "armyId": 1
+        }
+      ]
     }
   ],
   "players": [
@@ -270,6 +341,40 @@
         20
       ],
       "id": 10
+    },
+    {
+      "tournamentId": 4,
+      "name": "Caitlin",
+      "army_preferences": [
+        11,
+        12,
+        9,
+        10,
+        2,
+        1,
+        16,
+        15,
+        8
+      ],
+      "id": 11
+    },
+    {
+      "tournamentId": 4,
+      "name": "Trent",
+      "army_preferences": [
+        6,
+        1,
+        14,
+        13,
+        11,
+        12,
+        3,
+        4,
+        7,
+        5,
+        19
+      ],
+      "id": 12
     }
   ]
 }
