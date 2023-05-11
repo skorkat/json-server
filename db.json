@@ -125,30 +125,60 @@
       "id": 1,
       "tournamentId": 1,
       "name": "Trent",
-      "army_preferences": [15, 7, 19]
+      "army_preferences": [
+        15,
+        7,
+        19
+      ]
     },
     {
       "id": 2,
       "tournamentId": 1,
       "name": "Callum",
-      "army_preferences": [2, 1]
+      "army_preferences": [
+        2,
+        1
+      ]
     },
     {
       "tournamentId": 1,
       "name": "Josh",
-      "army_preferences": [12, 5, 6, 19, 1, 2, 20, 21],
+      "army_preferences": [
+        12,
+        5,
+        6,
+        19,
+        1,
+        2,
+        20,
+        21
+      ],
       "id": 3
     },
     {
       "tournamentId": 1,
       "name": "Caitlin",
-      "army_preferences": [4, 5, 7, 6],
+      "army_preferences": [
+        4,
+        5,
+        7,
+        6
+      ],
       "id": 4
     },
     {
       "tournamentId": 3,
       "name": "Trent",
-      "army_preferences": [6, 7, 3, 4, 5, 1, 2, 20],
+      "army_preferences": [
+        6,
+        7,
+        3,
+        4,
+        5,
+        1,
+        2,
+        20
+      ],
       "id": 5
     },
     {
@@ -160,14 +190,86 @@
     {
       "tournamentId": 2,
       "name": "Robert",
-      "army_preferences": [1, 9, 15, 17, 19, 18, 21, 20, 14],
+      "army_preferences": [
+        1,
+        9,
+        15,
+        17,
+        19,
+        18,
+        21,
+        20,
+        14
+      ],
       "id": 7
     },
     {
       "tournamentId": 2,
       "name": "Egbert",
-      "army_preferences": [20, 19, 18, 17, 16, 15, 13, 12, 11, 5, 7, 8],
+      "army_preferences": [
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        13,
+        12,
+        11,
+        5,
+        7,
+        8
+      ],
       "id": 8
+    },
+    {
+      "tournamentId": 4,
+      "name": "Josh",
+      "army_preferences": [
+        5,
+        13,
+        10,
+        1,
+        2,
+        14,
+        19,
+        11,
+        12,
+        4,
+        6,
+        3,
+        21,
+        20,
+        18,
+        17,
+        15,
+        7,
+        8,
+        9,
+        16
+      ],
+      "id": 9
+    },
+    {
+      "tournamentId": 4,
+      "name": "Callum",
+      "army_preferences": [
+        9,
+        3,
+        7,
+        15,
+        16,
+        18,
+        10,
+        1,
+        2,
+        13,
+        17,
+        21,
+        19,
+        20
+      ],
+      "id": 10
     }
   ]
 }
